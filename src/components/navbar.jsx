@@ -13,7 +13,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="w-full flex items-center justify-between md:px-20 pt-5 bg-transparent absolute top-0 z-50">
+    <nav className="w-full flex items-center justify-between md:px-20 pt-5 p-5 bg-transparent absolute top-0 z-50">
       {/* MASAÜSTÜ: Sol Menü */}
       <div className="hidden lg:flex w-1/3 justify-start gap-6 pl-6">
         {links.map((link, index) => (
