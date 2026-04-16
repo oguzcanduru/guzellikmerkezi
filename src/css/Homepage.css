@@ -7,17 +7,24 @@
     height: 100vh;
 }
 
-.font{
+.font {
     font-family: "Six Caps", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
-section{
+.bg {
     background-image: url(/src/assets/84-background-2-2.webp);
-   background-size: cover;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-   
+
+}
+
+@media (max-screen:500px) {
+
+    .img-sm {
+        display: none !important;
+    }
 }
